@@ -1,0 +1,157 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+    h1
+    {
+        font-size: 30px !important;
+    }
+
+    .bottom-container
+    {
+        padding: 16px !important;
+    }
+
+    .green-container
+    {
+        margin: 24px -16px !important;
+    }
+}
+
+body
+{
+    margin: 0;
+    line-height: 1.5;
+    min-width: 300px;
+}
+
+.header-container
+{
+    padding-left: 12px;
+    padding-right: 16px;
+    height: 75px;
+}
+
+.w3-logo
+{
+    width: 45px;
+    padding: 16px;
+}
+
+button
+{
+    background-color: rgb(4, 170, 109);
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+button:hover
+{
+    background-color: rgb(1, 150, 95);;
+}
+
+.login-button
+{
+    float: right;
+    border-radius: 25px;
+    padding: 0px 40px;
+    height: 43px;
+    margin: 16px;
+    border: 0;
+}
+
+ul
+{
+    background-color: #282A35;
+    height: 44px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul img
+{
+    height: 22px;
+}
+
+li 
+{
+    color: #f1f1f1;
+    padding: 0 16px;
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    left: auto;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+li:hover
+{
+    background-color: black;
+}
+
+.green-box
+{
+    background-color: #04AA6D !important;
+}
+
+.bottom-container
+{
+    padding: 16px 32px 32px 32px;
+}
+
+h1
+{
+    font-size: 42px;
+    font-weight: 400;
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin: 10px 0;
+}
+
+.bottom-container button
+{
+    padding-left: 19px;
+    padding-right: 19px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 8px 16px;
+    height: 45px;
+    width: 98px;
+}
+
+.part-2
+{
+    float: right;
+}
+
+.green-container
+{
+    background-color: #D9EEE1;
+    border-left: none;
+    padding: 32px;
+    margin: 24px -32px;
+}
+
+p
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 15px;
+    color: #000;
+    font-family: Verdana,sans-serif;
+}
+
+.green-container button
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 6px;
+    width: auto;
+}
